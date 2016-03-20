@@ -1,0 +1,22 @@
+/*
+ * Metadata describing the module operation
+ */
+{
+    //Required. Inputs the module expects.
+    "inputs": [{
+        "id"    : "name",
+        "title" : "Name of group to create"
+    }],
+    //Required. Outputs the module emits.
+    "outputs": [{
+        "id"    : "id",
+        "title" : "Channel Id"
+    }],
+    "providers": [{
+        "name"   : "slack",
+        "scopes" : ["channels:write","channels:read"]
+    }],
+    "icon": "slack",
+    /* Required.A display name for the module */
+    "title": "Slack Create Channel"
+}
