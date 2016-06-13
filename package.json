@@ -1,6 +1,6 @@
 {
   "name": "slack-create-channel",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This method creates a public channel, uncarchiving it if necessary",
   "main": "index.js",
   "author": "Run Dexter, Inc",
