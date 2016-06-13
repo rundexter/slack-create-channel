@@ -62,7 +62,7 @@ module.exports = _.merge({
              * You should update this section with some test input for testing your module
              */
             input: {
-                name: 'channel-name'
+                name: '4Channel@_name-!s'
             }
         }
     }
